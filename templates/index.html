@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <p>UNIVERSITY PCA PREDICTION</p>
+    </head>
+
+    <body>
+       
+        <form  action = "/success" method = "POST" 
+            enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <th>PCA
+                        <input type = "file" name = "file"  />
+                        <input type = "submit"/>
+
+                    </th>
+                </tr>
+            </table>
+            
+        <p>{{ Y | safe}}</p>
+        </form>
+
+    </body>
+</html>   
+
